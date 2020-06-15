@@ -1,4 +1,4 @@
-var birthday = new Date("July 19,1998 00:00:00").getTime(); //birthday-date object with the getTime method()
+var birthday = new Date("July 19,2020 00:00:00").getTime(); //birthday!
 
 //setting up my birthday function that runs after every second
 var birthdayFunction = setInterval(function(){
@@ -12,7 +12,7 @@ var minutes = Math.floor((timeLeft % (1000*60*60)) /(1000* 60));
 var seconds = Math.floor((timeLeft % (1000*60)) / 1000);
 
 //expressing content to the inner HTML
-document.getElementById("dynamic-content").innerHTML = days + "days :" + hours + "hrs :" + minutes + " mins :" + seconds + " secs :";
+document.getElementById("dynamic-content").innerHTML = days + "days : " + hours + "hrs : " + minutes + " mins :" + seconds + " secs ";
 
 //configuring a stopping function for the countdown
 if(timeLeft < 0){

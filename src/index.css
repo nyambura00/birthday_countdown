@@ -32,22 +32,22 @@ border: red 5px dotted;
   font-size: 35px;
   font-family: 'Times New Roman';
   position: relative;
-  left: 40px;
+  left: 140px;
   bottom: 90px;
   border: red 5px dotted;
   background-color: black;
-  width: 700px;
+  width: 500px;
   height: 50px;
   border-bottom-color: black;
 }
 #dynamic-content{
-  background-color: white;
-  color: black;
-  width: 700px;
+  background-color: black;
+  color: yellow;
+  width: 500px;
   height: 100px;
-  font-size: 20px;
+  font-size: 35px;
   position: relative;
-  right: -40px;
+  right: -160px;
   bottom: 30px;
 }
 #end-text{
