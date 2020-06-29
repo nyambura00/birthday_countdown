@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from 'react'; //react library has been imported so that JSX elements can rightfully get implemented.
 import './App.css';
+import Countdown from "./Countdown.js"
 
 function App() {
   return (
@@ -15,8 +15,9 @@ function App() {
       <li>HTML language</li>
       <li>Git version control system</li>
     </ul>
+    <Countdown />
     </div>
   )
 }
 
-export default App;
+export default App; //making the functional component available in the application
